@@ -1,0 +1,7 @@
+<div>
+  <label class="center-block">Search:
+    <input class="form-control" name="inputSearch" #inputSearch (change)="search(inputSearch.value)">
+  </label>
+  <h2>List of articles : </h2>
+  <app-article *ngFor="let article of this.articles" [article]="this.article" (click)="this.articleService.deleteArticle(this.article?.id);" (deletedArticle)="delete($event)"></app-article>
+</div>
