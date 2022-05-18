@@ -8,6 +8,7 @@ import { Observable } from "rxjs";
 })
 export class ArticleService {
 
+  //Start of TP1
   /*public getArticles() : Article[] {
     return [{
       id:1,
@@ -41,7 +42,6 @@ export class ArticleService {
   }
 
   public deleteArticle(id : number | undefined): Observable<any> {
-    //this.http.delete("http://localhost:3000/articles/" + id);
     return this.http.delete(`http://localhost:3000/articles/${id}`);
   }
 
@@ -49,7 +49,6 @@ export class ArticleService {
     return this.http.post("http://localhost:3000/articles", article);
   }
 
-  //constructor() { }
   constructor(private readonly http : HttpClient) { }
 
 }

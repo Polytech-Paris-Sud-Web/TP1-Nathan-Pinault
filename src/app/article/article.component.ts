@@ -40,6 +40,7 @@ export class ArticleComponent implements OnInit {
     }});;
   }
 
+  //Start of TP1
   /*public delete(id : number | undefined): void {
     this.articleService.deleteArticle(id).subscribe( {next: () => {
       console.log("Deleted");
@@ -47,6 +48,7 @@ export class ArticleComponent implements OnInit {
   }*/
 
   constructor(public articleService: ArticleService, private router: Router, private route: ActivatedRoute){
+    //Start of TP1
     /*this.article.id = 0;
     this.article.title = 'First Articles';
     this.article.content = 'Hello world';

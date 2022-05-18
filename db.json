@@ -23,6 +23,18 @@
       "title": "Another Article",
       "content": "For test purpose",
       "authors": "Snif"
+    },
+    {
+      "title": "Fake Title",
+      "content": "Salut",
+      "authors": "Ouiui",
+      "id": 6
+    },
+    {
+      "title": "Fake Title",
+      "content": "zefrg",
+      "authors": "sdgdfhj",
+      "id": 7
     }
   ],
   "authors": [

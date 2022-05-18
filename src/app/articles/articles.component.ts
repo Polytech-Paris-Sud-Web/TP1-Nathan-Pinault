@@ -12,6 +12,7 @@ export class ArticlesComponent implements OnInit {
               
   articles?: Article[];
 
+  //Start of TP1
   /*constructor() { 
     this.articles = [{id:1, title: 'My First Article', content : 'Hello World from private member', authors : 'Anonymous'},
               {id:1, title: 'My First Article', content : 'Hello World from private member', authors : 'Anonymous'}];
@@ -31,6 +32,5 @@ export class ArticlesComponent implements OnInit {
     this.articleService.getArticles().subscribe( (articles) => {
       this.articles = articles.sort( (artcile1, artcile2) => artcile2.id - artcile1.id ).slice(0,10); 
     });
-    //.filter(word => word.length > 6);
   }
 }

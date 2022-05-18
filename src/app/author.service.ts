@@ -25,6 +25,5 @@ export class AuthorService {
     return this.http.post("http://localhost:3000/authors", author);
   }
 
-  //constructor() { }
   constructor(private readonly http : HttpClient) { }
 }

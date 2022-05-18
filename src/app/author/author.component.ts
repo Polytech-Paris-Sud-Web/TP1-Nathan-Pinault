@@ -33,7 +33,6 @@ export class AuthorComponent implements OnInit {
     if(name !== null) {
       if (name !== undefined) {
         this.authorService.getAuthor(name).subscribe( {next: (a : Author[]) => {
-            //console.log(a[0].name);
             this.author = a[0];
           }
         });
